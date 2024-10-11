@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     notesArchive.put("за 12.01.2024", arrayListOf())
     notesArchive.put("список2", arrayListOf()) */
 
-    val menuArchList: MenuArchiveList = MenuArchiveList(notesArchive.keys.toList() as ArrayList<String>)
+    val menuArchList: MenuArchiveList = MenuArchiveList(arrayListOf())
     var isExit: Boolean = false
 
     menuArchList.printMenu()
